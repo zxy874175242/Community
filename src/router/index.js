@@ -13,7 +13,6 @@ import course from "../components/course/course";
 import learn from "../components/course/learn";
 import courseCreate from "../components/course/courseCreate";
 import uploadPost from "../components/forum/uploadPost";
-import uploadVideo from "../components/course/uploadVideo";
 import forum from "../components/forum/forum";
 import forumCreate from "../components/forum/forumCreate";
 import post from "../components/forum/post";
@@ -72,11 +71,6 @@ export default new Router({
       path: '/create/course',
       name: 'courseCreate',
       component: courseCreate
-    },
-    {
-      path: '/upload/video',
-      name: 'uploadVideo',
-      component: uploadVideo
     },
     {
       path: '/manage/course',
