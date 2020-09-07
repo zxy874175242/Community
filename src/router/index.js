@@ -84,7 +84,7 @@ export default new Router({
       component: manageCourse
     },
     {
-      path: '/f/:forumId',
+      path: '/f/1',
       name: 'forum',
       component:  forum
     },
